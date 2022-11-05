@@ -16,6 +16,10 @@ The theme toggle buttons switch between themes.
 
 The details page shows the descriptions of each sections.
 
+## App design
+
+Figma was used to design the app. [Link](https://www.figma.com/file/TcoawrWQXFvYypfEFUtIKt/Resume-App?node-id=18%3A106)
+
 ## Dependencies used
 
 Flutter riverpod is the only dependency used for state management. cupertino_icons comes by default with flutter.
