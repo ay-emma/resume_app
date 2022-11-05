@@ -30,3 +30,5 @@ If I had more time, I would have add localization support.
 
 - [Appetize.io link](https://appetize.io/app/vninirhvsv2cmj37vbnoxjr5gy?device=pixel4&osVersion=11.0&scale=75)
 - [Fall-back link to install](https://drive.google.com/file/d/1UqgjfxtgiH2kqC2lkmLI6n_k4-NMwe2W/view?usp=sharing)
+
+![land-scape view of the app](https://drive.google.com/file/d/18HkALu42mMocwoXRYoFzpKaglRVrgYZ-/view?usp=sharing 'Lans cape view')
