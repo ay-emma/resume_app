@@ -42,60 +42,73 @@ const gapW10 = SizedBox(
 
 const iconColor = Color(0xFF97A4B7);
 
+const primaryColorLight = Color(0XFF354680);
+const primaryColorDark = Color(0XFF97A4B7);
+
 ///Theme class for light and dark mode
 class AppTheme {
   AppTheme._();
 
   static final lightTheme = ThemeData(
     scaffoldBackgroundColor: const Color(0XFFF4F6FA),
-    primaryColor: const Color(0XFF354680),
+    primaryColor: primaryColorLight,
     textTheme: const TextTheme(
       headline3: TextStyle(
-        color: Color(0XFF354680),
+        color: primaryColorLight,
         fontSize: 28,
         fontWeight: FontWeight.bold,
       ),
       headline4: TextStyle(
-        color: Color(0XFF354680),
+        color: primaryColorLight,
         fontSize: 22,
         fontWeight: FontWeight.w400,
       ),
       headline5: TextStyle(
-        color: Color(0XFF354680),
+        color: primaryColorLight,
         fontSize: 20,
         fontWeight: FontWeight.w700,
       ),
       headline6: TextStyle(
-        color: Color(0XFF354680),
+        color: primaryColorLight,
         fontSize: 15,
         fontWeight: FontWeight.w800,
+      ),
+      subtitle1: TextStyle(
+        color: primaryColorLight,
+        fontSize: 15,
+        fontWeight: FontWeight.normal,
       ),
     ),
   );
 
   static final darkTheme = ThemeData(
     scaffoldBackgroundColor: const Color(0XFF000000),
-    primaryColor: const Color(0XFF97A4B7),
+    primaryColor: primaryColorDark,
     textTheme: const TextTheme(
       headline3: TextStyle(
-        color: Color(0XFF97A4B7),
+        color: primaryColorDark,
         fontSize: 28,
         fontWeight: FontWeight.bold,
       ),
       headline4: TextStyle(
-        color: Color(0XFF97A4B7),
+        color: primaryColorDark,
         fontSize: 22,
         fontWeight: FontWeight.w400,
       ),
       headline5: TextStyle(
-        color: Color(0XFF97A4B7),
+        color: primaryColorDark,
         fontSize: 20,
         fontWeight: FontWeight.w700,
       ),
       headline6: TextStyle(
-        color: Color(0XFF97A4B7),
+        color: primaryColorDark,
         fontSize: 15,
         fontWeight: FontWeight.w800,
+      ),
+      subtitle1: TextStyle(
+        color: primaryColorDark,
+        fontSize: 15,
+        fontWeight: FontWeight.normal,
       ),
     ),
   );
