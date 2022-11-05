@@ -24,6 +24,9 @@ Figma was used to design the app. [Link](https://www.figma.com/file/TcoawrWQXFvY
 
 Flutter riverpod is the only dependency used for state management. cupertino_icons comes by default with flutter.
 
+## Featues I would love to add
+
+If I had more time, I would have add localization support.
 
 - [Appetize.io link](https://appetize.io/app/vninirhvsv2cmj37vbnoxjr5gy?device=pixel4&osVersion=11.0&scale=75)
 - [Fall-back link to install](https://drive.google.com/file/d/1UqgjfxtgiH2kqC2lkmLI6n_k4-NMwe2W/view?usp=sharing)
