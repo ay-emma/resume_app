@@ -7,13 +7,12 @@ A resume app that shows my educational background, skills and experience, with s
 This project has only two pages, first being the home-page with description and social handles, and the second page shows the details of each sections.
 The details page has being abstracted in such a way that it support the three(3) different sections.
 
-A few resources to get you started if this is your first Flutter project:
+## Codebase description
 
-## Codebase
+The app is devided into 3 different dart files. main.dart file is the entry point for the app. The rest are under the src folder.
+Under the src/theme folder the app theme describes the colors fonts and style for dark and light mode.
+The home page use CustomScrollView to describe the list of scrollable content. It has three tappable buttons that leads to the details page.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Appetize.io link](https://appetize.io/app/vninirhvsv2cmj37vbnoxjr5gy?device=pixel4&osVersion=11.0&scale=75)
+- [Fall-back link to install](https://drive.google.com/file/d/1UqgjfxtgiH2kqC2lkmLI6n_k4-NMwe2W/view?usp=sharing)

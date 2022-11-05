@@ -142,6 +142,7 @@ class Homepage extends ConsumerWidget {
                       ),
                       gapH15,
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           InkWell(
                             onTap: () {
@@ -292,7 +293,7 @@ class Homepage extends ConsumerWidget {
   Widget _button(String iconUrl, String text, Color color) {
     return Container(
       height: 60,
-      width: 175,
+      width: 150,
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(20.0),
@@ -310,12 +311,12 @@ class Homepage extends ConsumerWidget {
           Text(
             text,
             style: const TextStyle(
-              fontSize: 18,
+              fontSize: 16,
               fontWeight: FontWeight.bold,
             ),
           ),
           const SizedBox(
-            width: 10.0,
+            width: 8.0,
           ),
         ],
       ),
