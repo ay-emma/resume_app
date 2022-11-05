@@ -12,6 +12,13 @@ The details page has being abstracted in such a way that it support the three(3)
 The app is devided into 3 different dart files. main.dart file is the entry point for the app. The rest are under the src folder.
 Under the src/theme folder the app theme describes the colors fonts and style for dark and light mode.
 The home page use CustomScrollView to describe the list of scrollable content. It has three tappable buttons that leads to the details page.
+The theme toggle buttons switch between themes.
+
+The details page shows the descriptions of each sections.
+
+## Dependencies used
+
+Flutter riverpod is the only dependency used for state management. cupertino_icons comes by default with flutter.
 
 
 - [Appetize.io link](https://appetize.io/app/vninirhvsv2cmj37vbnoxjr5gy?device=pixel4&osVersion=11.0&scale=75)
